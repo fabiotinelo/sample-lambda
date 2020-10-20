@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Iteris.Sample.Service</AssemblyName>
+    <RootNamespace>Iteris.Sample.Service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iteris.Sample.AppSetting\Iteris.Sample.AppSetting.csproj" />
+  </ItemGroup>
+
+
+</Project>

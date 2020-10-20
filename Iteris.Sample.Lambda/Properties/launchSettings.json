@@ -1,0 +1,29 @@
+{
+  "profiles": {
+    "Start": {
+      "commandName": "Project",
+      "ErrorString": "Unexpected end of content while loading JObject. Path 'profiles', line 39, position 3."
+    },
+    "Lambda Test Tool 3.1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\%USERNAME%\\.dotnet\\tools\\dotnet-lambda-test-tool-3.1.exe",
+      "commandLineArgs": "--port 5050 --no-launch-window",
+      "workingDirectory": ".\\bin\\$(Configuration)\\netcoreapp3.1",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "LocalDevelopment",
+
+            "SECRETMANAGER_PREFIXDELIMITER": ":",
+            "SECRETMANAGER_PREFIX": "SECRET_KEY",
+            "SECRETMANAGER_REGION": "us-west-2",
+            "SECRETMANAGER_SECRETNAME": "my_secret_name",
+            "SECRETMANAGER_VERSIONSTAGEDEFAULT": "AWSCURRENT",
+
+            "SYSTEM_NAME": "SAMPLE LAMBDA",
+            "DATABASE_CONNECTIONSTRING": "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;",
+            "URL_SERVICE_1": "htpp://temp.org/service1",
+            "URL_SERVICE_2": "htpp://temp.org/service1"
+
+        }
+    }
+  }
+}
